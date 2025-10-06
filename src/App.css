@@ -5,3 +5,39 @@
   text-align: center;
 }
 
+/* Hero styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+}
+.hero-content {
+  max-width: 720px;
+}
+.hero-title {
+  font-size: 2.25rem;
+  margin: 0 0 0.5rem 0;
+  color: #0f172a;
+}
+.hero-subtitle {
+  margin: 0 0 1.25rem 0;
+  color: #334155;
+  font-size: 1.05rem;
+}
+.hero-cta {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.hero-cta:hover {
+  background-color: #1e40af;
+}
+

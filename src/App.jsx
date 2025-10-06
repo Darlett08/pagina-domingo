@@ -1,13 +1,13 @@
 
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
-  
-
   return (
-    <h1>Hello a todos darletto, esto es una prueba </h1>
+    <>
+      <Hero />
+    </>
   )
 }
-
 
 export default App
